@@ -4,9 +4,7 @@ Script en Bash que barre toda las red local, en busca de servidores web.
 
 ## Descripción:
 
-> 
-> En momentos que no poseemos una herramienta como ´nmap´ para escanear los Servidores Web locales de nuestra red, este ´Script´ en ´.sh´ nos sera de gran ayuda.
-> 
+En momentos que no poseemos una herramienta como ´nmap´ para escanear los Servidores Web locales de nuestra red, este ´Script´ en ´.sh´ nos sera de gran ayuda.
 
 ## Uso:
 
@@ -25,10 +23,8 @@ sh search_ip.sh
 
 ## Autor:
 
-####
       By [FaySor](http://fenixfs.hol.es/)
 
 ## Web:
 
-####
       [Blog FaySor](http://fenixfs.hol.es/)
