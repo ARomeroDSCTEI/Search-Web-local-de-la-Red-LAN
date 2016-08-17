@@ -23,8 +23,8 @@ sh search_ip.sh
 
 ## Autor:
 
-      By [FaySor](http://fenixfs.hol.es/)
+By [FaySor](http://fenixfs.hol.es/)
 
 ## Web:
 
-      [Blog FaySor](http://fenixfs.hol.es/)
+[Blog FaySor](http://fenixfs.hol.es/)
