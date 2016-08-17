@@ -6,6 +6,10 @@ Script en Bash que barre toda las red local, en busca de servidores web.
 
 En momentos que no poseemos una herramienta como `nmap` para escanear los Servidores Web locales de nuestra red, este `Script` en `.sh` nos sera de gran ayuda.
 
+## Captura de pantalla
+
+![Screenshot](https://github.com/ARomeroDSCTEI/Search-Web-local-de-la-Red-LAN/blob/master/search_ip.png)
+
 ## Uso:
 
 #### Con permiso ROOT
