@@ -46,22 +46,15 @@ for ip in $addr; do
 
     while [ 1 ]; do
     	echo  [-] $ip$i;
-		ping -c 1 $ip$i > /dev/null 2>&1
+		wget -q -nv -t 1 --timeout=1 -S $ip$i -O /dev/null > /dev/null 2>&1
 		if [ $? -eq 0 ]; then
-			wget -nv -q -t 1 --timeout=1 $ip$i > /dev/null 2>&1
-			rm -f index.html.*
-			if [ $? -eq 0 ]; then
-				echo -e "\033[1;42m[+] Servidor Web: $ip$i \033[m";
-			fi
+			echo -e "\033[1;42m[+] Servidor Web: $ip$i \033[m";
 		fi
 		i=$(( $i + 1 ));
-		if [ $i -eq "255" ]; then
+		if [ $i -eq "256" ]; then
 			break;
 		fi
-
 	done
 
 	break;
 done
-
-rm -f index.html
